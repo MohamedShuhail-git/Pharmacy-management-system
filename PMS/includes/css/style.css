@@ -1,0 +1,27 @@
+
+.card-img-top{
+	height:200px;
+	object-fit: contain;
+}
+
+/* Ensure proper sidebar behavior */
+.sidebar-card {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.sidebar-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar-card {
+        position: static;
+        margin-bottom: 20px;
+    }
+}
+
